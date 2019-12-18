@@ -55,7 +55,7 @@ public class Automatic_Message_sender extends AppCompatActivity {
         github.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/ARashad96/Automatic_Message_sender"));
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/ARashad96/Automatic_Message_sender_All_API_Levels-including-pie"));
                 startActivity(intent);
             }
         });
